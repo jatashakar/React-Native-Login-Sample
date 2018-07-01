@@ -49,7 +49,7 @@ export default class Login extends Component {
 
   }
 }
-
+// custom style class to decorate the view
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255,255,255,0.3)',
     borderRadius: 25,
     paddingHorizontal: 16,
-  
+
     color: '#ffffff',
     marginVertical: 10
   },
@@ -83,8 +83,8 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
 
     backgroundColor: '#1c913a',
-   
-   
+
+
   },
   viewlogoandtext: {
     justifyContent: 'center',
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     color: '#fff',
     textAlign: 'center',
     fontSize: 20,
-    fontWeight: '600', 
+    fontWeight: '600',
   }
 
 
